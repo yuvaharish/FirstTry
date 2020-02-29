@@ -1,0 +1,230 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Browser launch",
+        "description": "    Given: Browser will open",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-02-29T15:01:00.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5805000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hook.loadDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Orange Hrm site and Php travel site login",
+        "description": "",
+        "id": "login-feature;orange-hrm-site-and-php-travel-site-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hook.driverClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6619000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will land the \"https://opensource-demo.orangehrmlive.com/\"login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.steps.Stepdefination.i_will_land_the_https_opensource_demo_orangehrmlive_com_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8568000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will enter the user \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.steps.Stepdefination.i_will_enter_the_user_Admin_and_admin123(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the login page \"OrangeHRM\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OrangeHRM\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.steps.Stepdefination.i_verify_the_login_page_Title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Browser launch",
+        "description": "    Given: Browser will open",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-02-29T15:01:22.093Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5128000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hook.loadDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Orange Hrm site and Php travel site login",
+        "description": "",
+        "id": "login-feature;orange-hrm-site-and-php-travel-site-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hook.driverClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11265000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will land the \"https://www.phptravels.net/admin\"login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.phptravels.net/admin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.steps.Stepdefination.i_will_land_the_https_opensource_demo_orangehrmlive_com_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will enter the user \"admin@phptravels.com\" and \"demoadmin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@phptravels.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"demoadmin\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.steps.Stepdefination.i_will_enter_the_user_Admin_and_admin123(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the login page \"Administator Login\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Administator Login\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.steps.Stepdefination.i_verify_the_login_page_Title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  i will test the login page",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/log.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
