@@ -36,6 +36,7 @@ public class Stepdefination extends BaseClass {
 		String title = driver.getTitle();
 		if (title.equalsIgnoreCase(Title)) {
 			System.out.println(title);
+			System.out.println(title);
 			Assert.assertTrue(true);
 		} else if (title.equalsIgnoreCase(Title)) {
 			System.out.println(title);
