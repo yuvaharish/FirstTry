@@ -14,9 +14,7 @@ public class Hook extends BaseClass{
 		driver= new ChromeDriver();
 	}
 	
-	test
-test
-test
+
 	
 	@After
 	public void driverClose(){
