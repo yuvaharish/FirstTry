@@ -16,7 +16,7 @@ public class Hook extends BaseClass{
 		ChromeOptions option=new ChromeOptions();
 		option.setHeadless(true);
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jacki\\git\\FirstTry\\Driver\\chromedriver.exe");
-		driver= new ChromeDriver();
+		driver= new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
