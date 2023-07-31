@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="@C:\\Users\\Yuvaraj\\workspace\\SeacnerioOutline\\report\\creport.txt",
+@CucumberOptions(features="@C:\\Users\\jacki\\git\\FirstTry\\report\\creport.txt",
 glue="com.steps",monochrome=true)
 public class TestRerunner {
 
