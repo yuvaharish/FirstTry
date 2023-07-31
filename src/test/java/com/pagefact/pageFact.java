@@ -11,11 +11,11 @@ public class pageFact extends BaseClass{
 	public pageFact(){
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(id="txtUsername")
+	@FindBy(xpath ="//*[@name='username']")
 	private WebElement username;
-	@FindBy(id="txtPassword")
+	@FindBy(name="password")
 	private WebElement password;
-	@FindBy(id="btnLogin")
+	@FindBy(xpath ="//*[@type='submit']")
 	private WebElement loginbutton;
 	public WebElement getUsername() {
 		return username;

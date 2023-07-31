@@ -14,6 +14,7 @@ public class Stepdefination extends BaseClass {
 	@Given("Browser will open")
 	public void browser_will_open() {
 		System.out.println("BrowserOpend");	}
+	
 	@Given("I will land the {string}login page")
 	public void i_will_land_the_https_opensource_demo_orangehrmlive_com_login_page(String url) {
 		url(url);		}
@@ -25,7 +26,7 @@ public class Stepdefination extends BaseClass {
 			type(hrm.getUsername(), name);
 			type(hrm.getPassword(), password);
 			click(hrm.getLoginbutton());
-		} else if (driver.getTitle().equalsIgnoreCase("Administator Login")) {
+		} else if (driver.getTitle().equalsIgnoreCase("Administrators Login")) {
 			TravelPage travel = new TravelPage();
 			type(travel.getUsername(), name);
 			type(travel.getPassword(), password);
